@@ -8,7 +8,7 @@ fn to_fahrenheit(celcius: f64) -> f64 {
     return celcius * (9. / 5.) + 32.;
 }
 
-const SCALES: [&'static str; 2] = ["celcius", "fahrenheit"];
+const SCALES: [&str; 2] = ["celcius", "fahrenheit"];
 
 fn main() {
     let scale = loop {
